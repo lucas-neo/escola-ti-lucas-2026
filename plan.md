@@ -28,6 +28,20 @@ README.md          # instruções de teste e execução
 5. Os testes devem iniciar servidores em portas livres e encerrá-los ao terminar.
 6. Usar um único container, pois existe somente a API com armazenamento em memória.
 
+### Cálculo da cobrança
+
+Usar esta função para calcular o valor em centavos a partir da duração em minutos, conforme nossa variante:
+
+```js
+function calculateCostCents(minutes) {
+  if (minutes <= 10) return 0;
+  const fractions = Math.ceil(minutes / 15);
+  return Math.min(fractions * 150, 6000);
+}
+```
+
+Passou da tolerância, cobra o tempo inteiro, sem descontar os 10 minutos. A fração é arredondada pra cima e o valor fica limitado a 6000 centavos por bilhete.
+
 ## Preparação
 
 Executar na pasta da solução gerada:
