@@ -2,9 +2,9 @@
 
 # ALUNO
 
-Nome: Lucas Neo
+Nome: Lucas Bufalo Neo de Carvalho
 
-RA: >>> PREENCHER <<<
+RA: 231351932
 
 Conta GitHub: @lucas-neo
 
