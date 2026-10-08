@@ -39,7 +39,7 @@ conta. Se nenhum site foi consultado, escreva: **"Nenhum site consultado."**)*
 
 | # | Link público da conversa | Onde o conteúdo foi usado |
 | --- | --- | --- |
-| — | | |
+| 1 | https://chatgpt.com/share/6ac6f7bf-8a30-83e8-90fe-a1b979161bf6 | gerar e formatar |
 
 *(Se nenhuma IA foi utilizada, escreva: **"Nenhuma IA utilizada."**)*
 
